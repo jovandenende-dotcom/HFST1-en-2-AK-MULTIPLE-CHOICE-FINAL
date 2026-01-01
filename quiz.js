@@ -349,6 +349,106 @@ const questions = [
   ],
   answer: 1
 },
+{
+  question: "Wat is leisteen?",
+  options: [
+    "Stollingsgesteente",
+    "Grijs of zwart metamorf gesteente ontstaan uit schalie",
+    "Sedimentgesteente",
+    "Vulkanisch gesteente"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is marmer?",
+  options: [
+    "Sedimentgesteente",
+    "Metamorf gesteente ontstaan uit kalksteen",
+    "Stollingsgesteente",
+    "Gesteente uit lava"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is mechanische verwering?",
+  options: [
+    "Verwering waarbij de samenstelling verandert",
+    "Verwering waarbij de chemische samenstelling niet verandert",
+    "Erosie door water",
+    "Sedimentatie"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een metamorf gesteente?",
+  options: [
+    "Gesteente ontstaan door afkoeling van magma",
+    "Gesteente dat door druk en/of temperatuur andere eigenschappen heeft gekregen",
+    "Gesteente ontstaan door afzetting",
+    "Vulkanisch gesteente"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de middenloop van een rivier?",
+  options: [
+    "Het deel bij de bron",
+    "Het deel tussen boven- en benedenloop waar erosie en sedimentatie ongeveer in evenwicht zijn",
+    "Het deel bij de monding",
+    "Het deel met alleen erosie"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een morene?",
+  options: [
+    "Door rivier afgezet materiaal",
+    "Afzetting van door landijs of gletsjers aangevoerd materiaal",
+    "Puinhelling",
+    "Zandafzetting"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de benedenloop van een rivier?",
+  options: [
+    "Het deel bij de bron",
+    "Het deel met groot verval",
+    "Het deel vanaf de middenloop tot de monding met geringe stroomsnelheid",
+    "Het deel waar vooral erosie plaatsvindt"
+  ],
+  answer: 2
+},
+{
+  question: "Wat is de bovenloop van een rivier?",
+  options: [
+    "Het deel met weinig verval",
+    "Het deel vanaf de bron tot de middenloop met groot verval en erosie",
+    "Het deel bij de monding",
+    "Het deel waar sedimentatie overheerst"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is transport door een rivier?",
+  options: [
+    "Afbraak van gesteente",
+    "Het meenemen van sediment door stromend water",
+    "Het afzetten van sediment",
+    "Chemische verwering"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is sedimentatie door een rivier?",
+  options: [
+    "Het oplossen van kalksteen",
+    "Het afzetten van meegenomen sediment",
+    "Het uitschuren van de bedding",
+    "Het transport van water"
+  ],
+  answer: 1
+},
 
 ];
 
