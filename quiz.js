@@ -549,6 +549,106 @@ const questions = [
   ],
   answer: 1
 },
+{
+  question: "Wat is platentektoniek?",
+  options: [
+    "Beweging van lucht in de atmosfeer",
+    "De processen waarbij aardplaten ontstaan, bewegen en verdwijnen",
+    "Het ontstaan van vulkanen",
+    "Het oplossen van gesteente"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een divergente plaatgrens?",
+  options: [
+    "Plaatgrens waar platen naar elkaar toe bewegen",
+    "Plaatgrens waar platen uit elkaar bewegen",
+    "Plaatgrens waar platen langs elkaar schuiven",
+    "Subductiezone"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is divergentie?",
+  options: [
+    "Het naar elkaar toe bewegen van platen",
+    "Het uit elkaar bewegen van aardplaten",
+    "Het langs elkaar schuiven van platen",
+    "Het botsen van platen"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een convergente plaatgrens?",
+  options: [
+    "Plaatgrens waar platen uit elkaar bewegen",
+    "Plaatgrens waar platen naar elkaar toe bewegen",
+    "Plaatgrens waar platen langs elkaar schuiven",
+    "Geen plaatgrens"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is convergentie?",
+  options: [
+    "Het uit elkaar bewegen van platen",
+    "Het naar elkaar toe bewegen van aardplaten",
+    "Het langs elkaar schuiven van platen",
+    "Het wegzakken van platen"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een transforme plaatgrens?",
+  options: [
+    "Grens waar platen naar elkaar toe bewegen",
+    "Grens waar platen langs elkaar schuiven",
+    "Grens waar platen uit elkaar bewegen",
+    "Grens waar subductie plaatsvindt"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is subductie?",
+  options: [
+    "Het langs elkaar schuiven van platen",
+    "Het wegzakken van een oceanische plaat onder een andere plaat in de asthenosfeer",
+    "Het uit elkaar bewegen van platen",
+    "Het omhoogkomen van magma"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een subductiezone?",
+  options: [
+    "Een gebied waar platen uit elkaar bewegen",
+    "Het gebied waar een oceanische plaat onder een andere plaat wegzakt",
+    "Een mid-oceanische rug",
+    "Een riftvallei"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is compressie?",
+  options: [
+    "Het uit elkaar bewegen van platen",
+    "Het naar elkaar toe bewegen en samendrukken van aardplaten",
+    "Het langs elkaar schuiven van platen",
+    "Het wegzakken van platen"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is rek?",
+  options: [
+    "Het samendrukken van aardplaten",
+    "Het uit elkaar trekken van aardplaten",
+    "Het langs elkaar schuiven van platen",
+    "Het omhoogkomen van magma"
+  ],
+  answer: 1
+},
 
 ];
 
