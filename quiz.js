@@ -649,6 +649,36 @@ const questions = [
   ],
   answer: 1
 },
+{
+  question: "Wat is vulkanisme?",
+  options: [
+    "Het ontstaan van aardbevingen",
+    "Het naar boven bewegen van heet magma uit de diepe ondergrond",
+    "Het afkoelen van magma",
+    "Het oplossen van gesteente"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is magma?",
+  options: [
+    "Gestold lava",
+    "Gesmolten gesteente in de aardmantel",
+    "Vloeibaar water in de aarde",
+    "Gas in de atmosfeer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is lava?",
+  options: [
+    "Magma in de mantel",
+    "Magma dat aan het aardoppervlak komt",
+    "Gestold magma",
+    "Vulkanisch as"
+  ],
+  answer: 1
+},
 
 ];
 
