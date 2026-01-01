@@ -41,7 +41,8 @@ const questions = [
   }
 ];
 
-// ---- QUIZ LOGICA ----
+// ------------------ QUIZ LOGICA ------------------
+
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -52,12 +53,12 @@ function shuffle(array) {
 let current = 0;
 let score = 0;
 
+// Shuffle vragen en antwoorden
 shuffle(questions);
-
 questions.forEach(q => {
-  const correctAnswer = q.options[q.answer];
+  const correct = q.options[q.answer];
   shuffle(q.options);
-  q.answer = q.options.indexOf(correctAnswer);
+  q.answer = q.options.indexOf(correct);
 });
 
 function loadQuestion() {
@@ -76,7 +77,16 @@ function loadQuestion() {
 }
 
 function checkAnswer(choice) {
-  if (choice === questions[current].answer) score++;
+  const q = questions[current];
+  const correctText = q.options[q.answer];
+
+  if (choice === q.answer) {
+    alert("Goed! ✅");
+    score++;
+  } else {
+    alert("Fout ❌\n\nHet juiste antwoord is:\n" + correctText);
+  }
+
   current++;
 
   if (current < questions.length) {
