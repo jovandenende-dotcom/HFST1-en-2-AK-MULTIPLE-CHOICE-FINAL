@@ -449,6 +449,106 @@ const questions = [
   ],
   answer: 1
 },
+{
+  question: "Wat is de hydrosfeer?",
+  options: [
+    "Alle lucht op aarde",
+    "Het water op aarde (oppervlaktewater, grondwater en ijs)",
+    "De aardmantel",
+    "De aardkorst"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de lithosfeer?",
+  options: [
+    "De aardmantel",
+    "De buitenste schil van de aarde, bestaande uit aardkorst en vaste bovenmantel",
+    "De aardkern",
+    "De atmosfeer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een karstlandschap?",
+  options: [
+    "Landschap gevormd door gletsjers",
+    "Landschap in kalksteen door het oplossen van kalk in water",
+    "Woestijnlandschap",
+    "Vulkanisch landschap"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een klifkust?",
+  options: [
+    "Kust waarbij afzetting overheerst",
+    "Steile kust ontstaan door afbraak door de zee",
+    "Kust met duinen",
+    "Kust gevormd door breuken"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is kalksteen?",
+  options: [
+    "Stollingsgesteente",
+    "Gesteente dat ontstaat uit kalkhoudende resten van zee-organismen",
+    "Metamorf gesteente",
+    "Gesteente uit lava"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een gletsjer?",
+  options: [
+    "Bevroren zeewater",
+    "Een ijsmassa die op land is gevormd en onder invloed van zwaartekracht beweegt",
+    "Sneeuw die niet smelt",
+    "IJs in de atmosfeer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de gesteentekringloop?",
+  options: [
+    "Het ontstaan van vulkanen",
+    "Proces waarbij gesteenten voortdurend worden afgebroken en opnieuw gevormd",
+    "Het vervoer van sediment",
+    "Het oplossen van kalksteen"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is fysische verwering?",
+  options: [
+    "Uiteenvallen van gesteente waarbij de samenstelling verandert",
+    "Uiteenvallen van vast gesteente waarbij de chemische samenstelling niet verandert",
+    "Afzetting van sediment",
+    "Transport van gesteente"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is evapotranspiratie?",
+  options: [
+    "De som van verdamping en neerslag",
+    "De som van evaporatie en transpiratie",
+    "Het transport van water",
+    "Condensatie van waterdamp"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is evaporatie?",
+  options: [
+    "Water dat planten afgeven aan de lucht",
+    "Water dat door verdamping van oppervlaktewater in de atmosfeer komt",
+    "Vorming van waterdruppels",
+    "Neerslag uit wolken"
+  ],
+  answer: 1
+},
 
 ];
 
