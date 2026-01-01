@@ -798,7 +798,137 @@ const questions = [
     "Golf door getijden"
   ],
   answer: 1
+},{
+  question: "Wat is aardkorst?",
+  options: [
+    "Het binnenste deel van de aarde",
+    "De buitenste vaste laag van de aarde",
+    "De aardmantel",
+    "De atmosfeer"
+  ],
+  answer: 1
 },
+{
+  question: "Wat is de aardmantel?",
+  options: [
+    "De buitenste laag van de aarde",
+    "De laag tussen aardkorst en aardkern",
+    "Het binnenste deel van de aarde",
+    "De atmosfeer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de aardkern?",
+  options: [
+    "De buitenste laag van de aarde",
+    "Het binnenste deel van de aarde",
+    "De aardmantel",
+    "De lithosfeer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de asthenosfeer?",
+  options: [
+    "De vaste aardkorst",
+    "Het taaie deel van de bovenmantel waarop aardplaten bewegen",
+    "De aardkern",
+    "De atmosfeer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een convectiestroom?",
+  options: [
+    "Beweging van lucht in de atmosfeer",
+    "Warmtestroming in de mantel die aardplaten in beweging brengt",
+    "Stroming van water in rivieren",
+    "Beweging van magma aan het oppervlak"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een riftvallei?",
+  options: [
+    "Een dal uitgesleten door een rivier",
+    "Een langgerekte vallei ontstaan door wegzakkende aardkorst bij divergentie",
+    "Een U-dal door ijs",
+    "Een onderzeese kloof"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een slenk?",
+  options: [
+    "Een hoger gelegen gebied tussen breuken",
+    "Een laagte die ontstaat doordat een deel van de aardkorst wegzakt langs breuken",
+    "Een vulkaankrater",
+    "Een trog in zee"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een horst?",
+  options: [
+    "Een laagte tussen breuken",
+    "Een hoger gelegen blok aardkorst tussen breuken",
+    "Een riftvallei",
+    "Een plooiingsgebergte"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een mid-oceanische rug?",
+  options: [
+    "Gebergte op land",
+    "Onderzeese gebergteketen waar nieuwe oceanische korst ontstaat",
+    "Subductiezone",
+    "Diepzeetrog"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is ridge push?",
+  options: [
+    "Het omhoog duwen van magma",
+    "Het afglijden van een oceanische plaat vanaf een hoog liggende rug",
+    "Het botsen van platen",
+    "Het langs elkaar schuiven van platen"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is slab pull?",
+  options: [
+    "Het afglijden van een plaat vanaf een rug",
+    "Het naar beneden trekken van een oceanische plaat door zijn eigen gewicht",
+    "Het omhoogkomen van magma",
+    "Het uit elkaar bewegen van platen"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een hotspot?",
+  options: [
+    "Een plaatgrens",
+    "Een hete plek boven een mantelpluim",
+    "Een subductiezone",
+    "Een riftvallei"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een plooiingsgebergte?",
+  options: [
+    "Gebergte ontstaan door breuken",
+    "Gebergte ontstaan door plooiing van aardlagen bij compressie",
+    "Vulkanisch gebergte",
+    "Onderzees gebergte"
+  ],
+  answer: 1
+}
+
 ];
 
 // ------------------ QUIZ LOGICA ------------------
