@@ -53,7 +53,7 @@ function shuffle(array) {
 let current = 0;
 let score = 0;
 
-// Shuffle vragen en antwoorden
+// Shuffle vragen + antwoorden
 shuffle(questions);
 questions.forEach(q => {
   const correct = q.options[q.answer];
@@ -78,24 +78,34 @@ function loadQuestion() {
 
 function checkAnswer(choice) {
   const q = questions[current];
-  const correctText = q.options[q.answer];
+  const optionsDiv = document.getElementById("options");
+  optionsDiv.innerHTML = "";
 
   if (choice === q.answer) {
-    alert("Goed! ✅");
+    optionsDiv.innerHTML =
+      "<p style='color:green;font-weight:bold'>Goed ✅</p>";
     score++;
   } else {
-    alert("Fout ❌\n\nHet juiste antwoord is:\n" + correctText);
+    optionsDiv.innerHTML =
+      "<p style='color:red;font-weight:bold'>Fout ❌</p>" +
+      "<p><strong>Juiste antwoord:</strong><br>" +
+      q.options[q.answer] + "</p>";
   }
 
-  current++;
+  const nextBtn = document.createElement("button");
+  nextBtn.innerText = "Volgende vraag";
+  nextBtn.onclick = () => {
+    current++;
+    if (current < questions.length) {
+      loadQuestion();
+    } else {
+      document.getElementById("question").innerText =
+        `Klaar! Je score: ${score} / ${questions.length}`;
+      optionsDiv.innerHTML = "";
+    }
+  };
 
-  if (current < questions.length) {
-    loadQuestion();
-  } else {
-    document.getElementById("question").innerText =
-      `Klaar! Je score: ${score} / ${questions.length}`;
-    document.getElementById("options").innerHTML = "";
-  }
+  optionsDiv.appendChild(nextBtn);
 }
 
 loadQuestion();
