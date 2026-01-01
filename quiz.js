@@ -1,44 +1,255 @@
 const questions = [
-  {
-    question: "Wat is een puinhelling?",
-    options: [
-      "Sedimentpakket dat ontstaat aan de monding van een rivier",
-      "Min of meer uit een massa puin bestaande, kegelvormige afzetting aan de onderzijde van een rotswand",
-      "Laagte die ontstaat door wegzakken langs breuken",
-      "Afzetting van materiaal door een gletsjer"
-    ],
-    answer: 1
-  },
-  {
-    question: "Wat is sedimentatie?",
-    options: [
-      "Het uiteenvallen van gesteente",
-      "Het vervoer van sediment",
-      "Proces waardoor los materiaal na transport door wind, water of ijs wordt afgezet",
-      "Het oplossen van kalksteen"
-    ],
-    answer: 2
-  },
-  {
-    question: "Wat is verwering?",
-    options: [
-      "Het vervoer van sediment",
-      "Het uiteenvallen van hard gesteente onder invloed van verschillende processen",
-      "Het afzetten van sediment",
-      "Het ontstaan van gesteente"
-    ],
-    answer: 1
-  },
-  {
-    question: "Wat is een aardbeving?",
-    options: [
-      "Vulkanuitbarsting",
-      "Trilling van de aarde door het plotseling verschuiven van stukken van de aardkorst of mantel",
-      "Beweging van magma",
-      "Instorten van een berg"
-    ],
-    answer: 1
-  }
+{
+  question: "Wat is een puinhelling?",
+  options: [
+    "Sedimentpakket dat ontstaat aan de monding van een rivier",
+    "Min of meer uit een massa puin bestaande, kegelvormige afzetting aan de onderzijde van een rotswand",
+    "Laagte die ontstaat door wegzakken langs breuken",
+    "Afzetting van materiaal door een gletsjer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een puinwaaier?",
+  options: [
+    "Door ijs afgezet materiaal",
+    "Sedimentpakket dat zich opbouwt als een rivier vanuit een steil en smal dal in een lagergelegen vlakte terechtkomt",
+    "Kust waarbij afbraak overheerst",
+    "Puinhelling onder een gletsjer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is sedimentatie?",
+  options: [
+    "Het uiteenvallen van gesteente",
+    "Het vervoer van sediment",
+    "Proces waardoor los materiaal na transport door wind, water of ijs wordt afgezet",
+    "Het oplossen van kalksteen"
+  ],
+  answer: 2
+},
+{
+  question: "Wat is een sedimentgesteente?",
+  options: [
+    "Gesteente ontstaan door afkoeling van magma",
+    "Gesteente dat is ontstaan uit materiaal dat door wind, water of ijs is neergelegd",
+    "Gesteente dat onder hoge druk is veranderd",
+    "Gesteente dat alleen uit zand bestaat"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een stollingsgesteente?",
+  options: [
+    "Gesteente ontstaan uit sediment",
+    "Gesteente ontstaan door afkoeling van lava of magma",
+    "Gesteente ontstaan door verwering",
+    "Gesteente gevormd door plooiing"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een stroomgebied?",
+  options: [
+    "De bedding van een rivier",
+    "Het hele gebied dat afwatert op een bepaalde rivier",
+    "Een gebied met veel neerslag",
+    "De monding van een rivier"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is transpiratie?",
+  options: [
+    "Verdamping van water uit zeeën",
+    "Water dat planten opnemen en via hun bladeren weer afgeven aan de lucht",
+    "Condensatie van waterdamp",
+    "Neerslag uit wolken"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is transport?",
+  options: [
+    "Het afzetten van sediment",
+    "Het uiteenvallen van gesteente",
+    "Vervoer van sediment door water, wind of ijs",
+    "Het oplossen van gesteente"
+  ],
+  answer: 2
+},
+{
+  question: "Wat is een trogdal?",
+  options: [
+    "Een V-dal uitgesleten door een rivier",
+    "Een U-dal ontstaan door erosie door een gletsjer",
+    "Een vallei ontstaan door breuken",
+    "Een onderzeese kloof"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is verdamping?",
+  options: [
+    "Het afkoelen van waterdamp",
+    "Het overgaan van water van vloeibaar naar gasvormig",
+    "Het neerslaan van waterdamp",
+    "Het transport van water"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is verwering?",
+  options: [
+    "Het vervoer van sediment",
+    "Het uiteenvallen van hard gesteente onder invloed van verschillende processen",
+    "Het afzetten van sediment",
+    "Het ontstaan van gesteente"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is verweringsmateriaal?",
+  options: [
+    "Sediment in een rivier",
+    "Puin dat ontstaat bij verwering",
+    "Gesteente in de aardmantel",
+    "Magma onder een vulkaan"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een waterscheiding?",
+  options: [
+    "De bedding van een rivier",
+    "De grens tussen twee stroomgebieden",
+    "Een gebied met veel regen",
+    "Een riviermonding"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is zandsteen?",
+  options: [
+    "Stollingsgesteente met grote kristallen",
+    "Metamorf gesteente",
+    "Sedimentgesteente dat vooral bestaat uit aaneengekitte zandkorrels",
+    "Gesteente ontstaan uit lava"
+  ],
+  answer: 2
+},
+{
+  question: "Wat is een aanslibbingskust?",
+  options: [
+    "Kust waarbij afbraak overheerst",
+    "Kust waarbij de afzetting van materiaal overheerst",
+    "Steile rotskust",
+    "Kust gevormd door breuken"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een aardverschuiving?",
+  options: [
+    "Instorten van een vulkaan",
+    "Het van een helling glijden of rollen van een grote hoeveelheid gesteente of los materiaal",
+    "Beweging van aardplaten",
+    "Afzetting door ijs"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is erosie?",
+  options: [
+    "Het uiteenvallen van gesteente",
+    "Het afslijten en uitschuren van de ondergrond door water, ijs of wind",
+    "Het afzetten van sediment",
+    "Het oplossen van kalksteen"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is evaporatie?",
+  options: [
+    "Water dat planten afgeven aan de lucht",
+    "Water dat door verdamping van oppervlaktewater in de atmosfeer komt",
+    "Vorming van waterdruppels",
+    "Neerslag uit wolken"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is evapotranspiratie?",
+  options: [
+    "De som van verdamping en neerslag",
+    "De som van evaporatie en transpiratie",
+    "Het transport van water",
+    "Condensatie van waterdamp"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is fysische verwering?",
+  options: [
+    "Uiteenvallen van gesteente waarbij de samenstelling verandert",
+    "Uiteenvallen van vast gesteente waarbij de chemische samenstelling niet verandert",
+    "Afzetting van sediment",
+    "Transport van gesteente"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de gesteentekringloop?",
+  options: [
+    "Het ontstaan van vulkanen",
+    "Proces waarbij gesteenten voortdurend worden afgebroken en opnieuw gevormd",
+    "Het vervoer van sediment",
+    "Het oplossen van kalksteen"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een gletsjer?",
+  options: [
+    "Bevroren zeewater",
+    "Een ijsmassa die op land is gevormd en onder invloed van zwaartekracht beweegt",
+    "Sneeuw die niet smelt",
+    "IJs in de atmosfeer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de hydrologische kringloop?",
+  options: [
+    "De kringloop van magma",
+    "De kringloop van water via verdamping, condensatie, neerslag en transport",
+    "De kringloop van gesteenten",
+    "De kringloop van lucht"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de hydrosfeer?",
+  options: [
+    "Alle lucht op aarde",
+    "Het water op aarde (oppervlaktewater, grondwater en ijs)",
+    "De aardmantel",
+    "De aardkorst"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is kalksteen?",
+  options: [
+    "Stollingsgesteente",
+    "Gesteente dat ontstaat uit kalkhoudende resten van zee-organismen",
+    "Metamorf gesteente",
+    "Gesteente uit lava"
+  ],
+  answer: 1
+}
+
 ];
 
 // ------------------ QUIZ LOGICA ------------------
@@ -62,6 +273,12 @@ questions.forEach(q => {
 });
 
 function loadQuestion() {
+  if (questions.length === 0) {
+    document.getElementById("question").innerText =
+      "Nog geen vragen toegevoegd.";
+    return;
+  }
+
   const q = questions[current];
   document.getElementById("question").innerText = q.question;
 
