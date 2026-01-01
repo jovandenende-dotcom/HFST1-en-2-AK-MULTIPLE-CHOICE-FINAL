@@ -679,7 +679,126 @@ const questions = [
   ],
   answer: 1
 },
-
+{
+  question: "Wat is een magmakamer?",
+  options: [
+    "De krater van een vulkaan",
+    "Het herkomstgebied van magma in de aardkorst",
+    "Een onderzeese kloof",
+    "Een lavastroom"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een schildvulkaan?",
+  options: [
+    "Vulkaan met steile hellingen",
+    "Vulkaan met brede basis en flauwe hellingen door dunne lava",
+    "Explosieve vulkaan",
+    "Onderzeese vulkaan"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een stratovulkaan?",
+  options: [
+    "Vulkaan met flauwe hellingen",
+    "Vulkaan opgebouwd uit afwisselend lava- en aslagen met steile hellingen",
+    "Onderzeese vulkaan",
+    "Rustige vulkaan"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een explosieve eruptie?",
+  options: [
+    "Rustige uitbarsting van dunne lava",
+    "Heftige vulkaanuitbarsting van taaie lava, as en vulkaanbommen",
+    "Uitbarsting onder zee",
+    "Eruptie zonder gasdruk"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een effusieve eruptie?",
+  options: [
+    "Explosieve uitbarsting met as",
+    "Rustige uitbarsting van dunne, vloeibare lava",
+    "Onderzeese eruptie",
+    "Instorting van een vulkaan"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is viscositeit?",
+  options: [
+    "De temperatuur van magma",
+    "De mate van stroperigheid van magma",
+    "De snelheid van lava",
+    "De druk in de aardkern"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een aardbeving?",
+  options: [
+    "Vulkanuitbarsting",
+    "Trilling van de aarde door het plotseling verschuiven van stukken van de aardkorst of mantel",
+    "Beweging van magma",
+    "Instorten van een berg"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is het hypocentrum?",
+  options: [
+    "De plaats aan het aardoppervlak",
+    "Het punt in de ondergrond waar een aardbeving ontstaat",
+    "De rand van een aardplaat",
+    "De aardkern"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is het epicentrum?",
+  options: [
+    "Het punt waar de aardbeving ontstaat",
+    "De plaats aan het aardoppervlak loodrecht boven het hypocentrum",
+    "De rand van een aardplaat",
+    "De aardkern"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is magnitude?",
+  options: [
+    "De diepte van een aardbeving",
+    "De hoeveelheid energie die vrijkomt bij een aardbeving",
+    "De schade aan gebouwen",
+    "De duur van een beving"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de momentmagnitudeschaal?",
+  options: [
+    "Schaal voor windsnelheid",
+    "Schaal waarmee de magnitude van een aardbeving wordt aangegeven",
+    "Schaal voor temperatuur",
+    "Tijdschaal van geologie"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een tsunami?",
+  options: [
+    "Stormvloed door wind",
+    "Hoge golf die ontstaat door een aardbeving in de oceanische lithosfeer",
+    "Golf door smeltend ijs",
+    "Golf door getijden"
+  ],
+  answer: 1
+},
 ];
 
 // ------------------ QUIZ LOGICA ------------------
