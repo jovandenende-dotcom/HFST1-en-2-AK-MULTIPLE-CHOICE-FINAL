@@ -248,7 +248,107 @@ const questions = [
     "Gesteente uit lava"
   ],
   answer: 1
-}
+},
+{
+  question: "Wat is de atmosfeer?",
+  options: [
+    "Het vaste deel van de aarde",
+    "Het geheel aan gasvormige stoffen die de aarde omringen",
+    "Alle water op aarde",
+    "De aardmantel"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is de biosfeer?",
+  options: [
+    "Alle water op aarde",
+    "Het leven op aarde",
+    "De aardkorst",
+    "De atmosfeer"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is chemische verwering?",
+  options: [
+    "Uiteenvallen van gesteente zonder samenstellingsverandering",
+    "Uiteenvallen van gesteente waarbij de scheikundige samenstelling verandert",
+    "Afzetting van sediment",
+    "Transport van gesteente"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is condensatie?",
+  options: [
+    "Verdamping van water",
+    "Vorming van waterdruppels door afkoelen van waterdamp",
+    "Neerslag uit wolken",
+    "Transport van water"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een delta?",
+  options: [
+    "Steile kust",
+    "Kust die ontstaat bij de monding van een vertakte rivier door afzetting",
+    "Onderzeese kloof",
+    "Kust gevormd door afbraak"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een eindmorene?",
+  options: [
+    "Door rivier afgezet materiaal",
+    "Heuvelrug van materiaal dat een gletsjer voor zich uit heeft geschoven",
+    "Sediment in zee",
+    "Puinhelling"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een karstlandschap?",
+  options: [
+    "Landschap gevormd door gletsjers",
+    "Landschap in kalksteen door het oplossen van kalk in water",
+    "Woestijnlandschap",
+    "Vulkanisch landschap"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een klifkust?",
+  options: [
+    "Kust waarbij afzetting overheerst",
+    "Steile kust ontstaan door afbraak door de zee",
+    "Kust met duinen",
+    "Kust gevormd door breuken"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een meander?",
+  options: [
+    "Een riviermonding",
+    "Een natuurlijke bocht in een rivier",
+    "Een stroomgebied",
+    "Een delta"
+  ],
+  answer: 1
+},
+{
+  question: "Wat is een massabeweging?",
+  options: [
+    "Beweging van aardplaten",
+    "Verplaatsing van verweringsmateriaal door zwaartekracht",
+    "Transport door wind",
+    "Afzetting van sediment"
+  ],
+  answer: 1
+},
 
 ];
 
